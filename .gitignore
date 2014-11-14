@@ -1,0 +1,9 @@
+*
+!.gitignore
+!*/
+!*.c
+!*.h
+!*.java
+!*.xml
+!*.png
+**/bin
