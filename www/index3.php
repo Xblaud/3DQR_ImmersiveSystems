@@ -41,7 +41,7 @@ body{
     width:320px;
     height:240px;
     border: solid;
-    border-width: 1px 1px 1px 1px;
+    border-width: 0px 0px 0px 0px;
 }
 #result{
     border: solid;
@@ -94,10 +94,13 @@ li a{
     padding:0;
 }
 
-</style><script type="text/javascript" src="llqrcode.js"></script>
+</style>
+<div align="center"><script type="text/javascript" src="llqrcode.js"></script></div>
 
-<script type="text/javascript" src="webqr.js"></script>
-<script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+
+<div align="center"><script type="text/javascript" src="webqr.js"></script>
+<div align="center">
+<script type="text/javascript" src="jquery-1.8.0.min.js"></script></div>
 <script>
 $(document).ready(function() {
 load();
@@ -116,7 +119,7 @@ setimg();
 
 
 $pre = 1;
-$title = "How to decode QR code";
-$heading = "How to decode QR code example.";
+$title = "3D QR Code Services";
+$heading = "3D QR Code Services";
 include("html.inc");            
 ?>
