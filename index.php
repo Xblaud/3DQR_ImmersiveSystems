@@ -73,5 +73,7 @@
         
     // benchmark
     QRtools::timeBenchmark();    
+	
+	echo '<div align="center"><a href="index3.php">>>>Decoder<<<</a></div>';
 
     
