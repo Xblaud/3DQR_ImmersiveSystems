@@ -17,7 +17,7 @@
     
     //ofcourse we need rights to create temp dir
     if (!file_exists($PNG_TEMP_DIR))
-        mkdir($PNG_TEMP_DIR);
+        mkdir($PNG_TEMP_DIR, 0744);
     
     
     $filename = $PNG_TEMP_DIR.'test.png';
