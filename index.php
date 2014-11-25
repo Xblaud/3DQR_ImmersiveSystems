@@ -33,7 +33,7 @@ else
         </tr>          
         <tr>
             <td>Size</td>
-            <td><input type="text" name="size" /> <i>min: 100 and max: 800</i></td>
+            <td><input type="text" name="size" /> <i>min: 100 and max: 500</i></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -68,7 +68,7 @@ else
 
 
 $pre = 1;
-$title = "How to generate QR code in PHP";
-$heading = "How to generate QR code in PHP example.";
+$title = "Capstone QR code encoder";
+$heading = "Capstone QR code encoder";
 include("html.inc");            
 ?>
