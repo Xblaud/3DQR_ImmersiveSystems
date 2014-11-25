@@ -17,6 +17,10 @@
     
     //ofcourse we need rights to create temp dir
     if (!file_exists($PNG_TEMP_DIR))
+        shell_exec('sudo chown -R root:www /var/www')
+        shell_exec('sudo chmod 2775 /var/www')
+        shell_exec('find /var/www -type d -exec sudo chmod 2775 {} +')
+        shell_exec('find /var/www -type f -exec sudo chmod 0664 {} +')
         mkdir($PNG_TEMP_DIR, 0744);
     
     
