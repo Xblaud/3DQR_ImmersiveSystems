@@ -10,7 +10,7 @@
     </style>
   </head>
   <body>
-    <div>
+    <div align="center">
       <h2><?php echo $heading;?></h2>
 
 
