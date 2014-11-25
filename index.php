@@ -2,7 +2,24 @@
 /*
  * PHP QR Code encoder
  *
+ * Exemplatory usage
  *
+ * PHP QR Code is distributed under LGPL 3
+ * Copyright (C) 2010 Dominik Dzienia <deltalab at poczta dot fm>
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 3 of the License, or any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  */
     
     echo "<h1>PHP QR Code</h1><hr/>";
@@ -46,8 +63,8 @@
     } else {    
     
         //default data
-        //echo 'You can provide data in GET parameter: <a href="?data=like_that">like that</a><hr/>';    
-        QRcode::png('3D QR Code Services :)', $filename, $errorCorrectionLevel, $matrixPointSize, 2);    
+        echo 'You can provide data in GET parameter: <a href="?data=like_that">like that</a><hr/>';    
+        QRcode::png('PHP QR Code :)', $filename, $errorCorrectionLevel, $matrixPointSize, 2);    
         
     }    
         
@@ -73,7 +90,5 @@
         
     // benchmark
     QRtools::timeBenchmark();    
-	
-	echo '<div align="center"><a href="index3.php">>>>Decoder<<<</a></div>';
 
     
