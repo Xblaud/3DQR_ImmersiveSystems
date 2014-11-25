@@ -1,8 +1,0 @@
-*
-!.gitignore
-!*/
-!*.php
-!*.js
-!*.inc
-!*.png
-**/bin

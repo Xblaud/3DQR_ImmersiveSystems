@@ -121,5 +121,6 @@ setimg();
 $pre = 1;
 $title = "3D QR Code Services";
 $heading = "3D QR Code Services";
-include("html.inc");            
+include("html3.inc");
+echo '<div align="center"><a href="index.php">>>>Encoder<<<</a></div>';           
 ?>
